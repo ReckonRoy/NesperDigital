@@ -7,6 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
     <style>
         /* ===== RESET & BASE ===== */
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 90px; /* adjust to header height */
+        }
         *,
         *::before,
         *::after {
@@ -335,16 +339,16 @@
 <body>
 
     <!-- ====== CUSTOM ELEMENTS ====== -->
-    <nesper-header></nesper-header>
-    <hero-section></hero-section>
-    <insights-section></insights-section>
-    <services-section></services-section>
-    <trust-section></trust-section>
-    <clients-section></clients-section>
-    <case-studies-section></case-studies-section>
-    <team-section></team-section>
-    <contact-section></contact-section>
-    <footer-section></footer-section>
+   <nesper-header></nesper-header>
+    <hero-section id="home"></hero-section>
+    <insights-section id="insights"></insights-section>
+    <services-section id="services"></services-section>
+    <trust-section id="trust"></trust-section>
+    <clients-section id="clients"></clients-section>
+    <case-studies-section id="case-studies"></case-studies-section>
+    <team-section id="team"></team-section>
+    <contact-section id="contact"></contact-section>
+    <footer-section id="footer"></footer-section>
 
     <!-- ====== MODAL ====== -->
     <div class="modal-overlay" id="modalOverlay">

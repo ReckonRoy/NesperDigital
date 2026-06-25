@@ -76,7 +76,7 @@ customElements.define('team-section', class extends HTMLElement {
                 <div class="inner">
                     <span class="section-label" style="display:inline-block;font-size:0.7rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--blue);background:rgba(47,128,237,0.10);padding:4px 16px;border-radius:30px;margin-bottom:14px;">Our Team</span>
                     <h2 class="section-title">The People Behind <span class="text-gradient">NesperDigital</span></h2>
-                    <p class="section-sub">A passionate team of 4 with complementary skills, united by a mission to deliver excellence.</p>
+                    <p class="section-sub">Frontline team.</p>
                     <div class="team-grid">
                         <!-- Le-Roy Jongwe -->
                         <div class="team-card">

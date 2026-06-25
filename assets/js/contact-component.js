@@ -141,8 +141,8 @@ customElements.define('contact-section', class extends HTMLElement {
                         <button type="submit" class="btn-submit">Send via WhatsApp →</button>
                     </form>
                     <div class="contact-info">
-                        <span class="item"><span class="ico">📧</span> nesperdigital@email.com</span>
-                        <span class="item"><span class="ico">📞</span> +263 XXX XXX XXX</span>
+                        <span class="item"><span class="ico">📧</span>nesperdigitalsolutions@gmail.com</span>
+                        <span class="item"><span class="ico">📞</span>+263 078 009 1209 / +27 63 963 3561</span>
                         <span class="item"><span class="ico">📍</span> Zimbabwe / South Africa</span>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ customElements.define('contact-section', class extends HTMLElement {
                 }
 
                 // Build WhatsApp message
-                const whatsappNumber = '263777777777'; // Replace with actual WhatsApp number
+                const whatsappNumber = '+27 63 963 3561';
                 const text = `Hello NesperDigital!%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Service:* ${service}%0A*Message:* ${message}`;
                 const url = `https://wa.me/${whatsappNumber}?text=${text}`;
                 window.open(url, '_blank');
